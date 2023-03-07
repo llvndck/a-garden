@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.page-wrapper {
+  width: 90vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 10vw;
+  position: relative;
+  z-index: 1;
+  background: white;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(1.25rem, 6.351vw + -0.393rem, 4.688rem);
+  line-height: clamp(1.25rem, 5.485vw + -0.169rem, 4.219rem);
+  color: #01360D;
+}
+
+.page-wrapper > p > u {
+  text-decoration: none;
+}
+
+.keyword > dfn {
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.note {
+  display: none;
+}
+
+.note.open {
+  display: inline;
+  font-weight: normal;
+
+}
+
+.quote {
+  font-size: clamp(1.5rem, 8.776vw + -0.771rem, 6.25rem);
+  line-height: clamp(1.2rem, 7.598vw + -0.766rem, 5.313rem);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: none;
+}
+
+.caption {
+  font-size: clamp(0.75rem, 0.924vw + 0.511rem, 1.25rem);
+  line-height: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  width: 90vw;
+}
+
+img {
+  display: block;
+  width: 90vw;
+  height: auto;
+}
+
+.hide {
+  ;
+}
+
+h1{
+  top: 0;
+  text-align: center;
+  font-size: clamp(3.75rem, 13.857vw + 0.165rem, 11.25rem);
+  line-height: clamp(3.188rem, 12.818vw + -0.129rem, 10.125rem);
+  margin: 2vh;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  left: 5%;
+  bottom: 0;
+  width: 100%;
+  height: 85vh;
+  display: grid;
+  text-align: center;
+  color: #01360D;
+  /* background-image: linear-gradient(white, green); */
+
+}
+
+.footnotes{
+  font-family: Arial, Helvetica, sans-serif;
+  column-count: 3;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
+  line-height: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
+  column-rule: 1.5px solid #01360D;
+}
+
+.bibliography{
+  padding-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
+  line-height: clamp(0.75rem, 0.462vw + 0.63rem, 1rem);
+}
+
+.personalia{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  column-count: 2;
+  column-gap: 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: auto;
+  font-size: clamp(0.75rem, 1.617vw + 0.332rem, 1.625rem);
+  line-height: 1; 
+  padding-bottom: 1vh;
+  column-rule: 1.5px solid #01360D;
+}
+
+.num{
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: super;
+  font-size: clamp(0.75rem, 2.079vw + 0.212rem, 1.875rem);  
+  line-height: 0;
+
+}
